@@ -1,5 +1,5 @@
 //  Primitive
-
+//in primitive the stack memory is used means it will pass by value menas creat a copy and the main memory is untouched
 //  7 types : String, Number, Boolearn, null, undefined, Symbol, BigInt
 
 const score = 100
@@ -20,7 +20,7 @@ console.log(id === anotherId);
 
 
 // Reference (Non primitive)
-
+//in non primitive type the heap memory is used means it pass by reference so that f we change the main memory will affected
 // Array, Objects, Functions
 
 const heros = ["shaktiman", "naagraj", "doga"];//this is array
